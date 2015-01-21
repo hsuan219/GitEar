@@ -2,7 +2,7 @@
     <wb-module deploy-name="HelloWorldGitEAR">
         <wb-resource deploy-path="/" source-path="/target/m2e-wtp/ear-resources"/>
         <wb-resource deploy-path="/" source-path="/src/main/application" tag="defaultRootSource"/>
-        <dependent-module archiveName="HelloWorld-Git.war" deploy-path="/" handle="module:/resource/HelloWorld/HelloWorld">
+        <dependent-module archiveName="HelloWorld-Git.war" deploy-path="/" handle="module:/classpath/var/M2_REPO/tw/com/webcomm/HelloWorld-Git-Websphere/0.0.1-SNAPSHOT/HelloWorld-Git-Websphere-0.0.1-SNAPSHOT.war">
             <dependency-type>uses</dependency-type>
         </dependent-module>
     </wb-module>
